@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <set-xy comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-16-5 comment="false" id="0" x="0" y="0"/>
+                                <minus comment="false" id="1" x="0" y="0">
+                                    <times comment="false" id="0" x="0" y="0">
+                                        <get-val-16-3 comment="false" id="0" x="0" y="0"/>
+                                        <trig-master comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <times comment="false" id="1" x="0" y="0">
+                                                <get-val-16-7 comment="false" id="0" x="0" y="0"/>
+                                                <minus comment="false" id="1" x="0" y="0">
+                                                    <get-val-16-1 comment="false" id="0" x="0" y="0"/>
+                                                    <get-xy comment="false" id="1" x="0" y="0">
+                                                        <ACTOR eid="this" id="0"/>
+                                                        <int id="1" val="2"/>
+                                                    </get-xy>
+                                                </minus>
+                                            </times>
+                                            <int id="2" val="1"/>
+                                        </trig-master>
+                                    </times>
+                                    <get-wh comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="3"/>
+                                    </get-wh>
+                                </minus>
+                            </plus>
+                        </set-xy>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-16-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Horizontal"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="160">
+                    <group eventID="1" id="-1">
+                        <set-xy comment="false" x="37" y="190">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-16-1 comment="false" id="0" x="0" y="0"/>
+                                <minus comment="false" id="1" x="0" y="0">
+                                    <times comment="false" id="0" x="0" y="0">
+                                        <get-val-16-3 comment="false" id="0" x="0" y="0"/>
+                                        <trig-master comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <times comment="false" id="1" x="0" y="0">
+                                                <get-val-16-7 comment="false" id="0" x="0" y="0"/>
+                                                <minus comment="false" id="1" x="0" y="0">
+                                                    <get-val-16-5 comment="false" id="0" x="0" y="0"/>
+                                                    <get-xy comment="false" id="1" x="0" y="0">
+                                                        <ACTOR eid="this" id="0"/>
+                                                        <int id="1" val="3"/>
+                                                    </get-xy>
+                                                </minus>
+                                            </times>
+                                            <int id="2" val="1"/>
+                                        </trig-master>
+                                    </times>
+                                    <get-wh comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="2"/>
+                                    </get-wh>
+                                </minus>
+                            </plus>
+                        </set-xy>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-16-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Vertical"/>
+                    </eq>
+                </else-if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <ignore-screen-tolerance comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+                <set-val-16-7 comment="false" x="26" y="67">
+                    <div comment="false" id="0" x="0" y="0">
+                        <times comment="false" id="0" x="0" y="0">
+                            <int id="0" val="2"/>
+                            <pi comment="false" id="1" x="0" y="0"/>
+                        </times>
+                        <get-val-16-2 comment="false" id="1" x="0" y="0"/>
+                    </div>
+                </set-val-16-7>
+                <set-val-16-1 comment="false" x="26" y="102">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                </set-val-16-1>
+                <set-val-16-5 comment="false" x="26" y="135">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
+                </set-val-16-5>
+                <if comment="false" x="26" y="168">
+                    <group eventID="-1" id="-1">
+                        <set-dxy comment="false" x="37" y="198">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-16-6 comment="false" id="2" x="0" y="0"/>
+                        </set-dxy>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-16-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Horizontal"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="242">
+                    <group eventID="2" id="-1">
+                        <set-dxy comment="false" x="37" y="262">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-16-6 comment="false" id="2" x="0" y="0"/>
+                        </set-dxy>
+                    </group>
+                </else>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

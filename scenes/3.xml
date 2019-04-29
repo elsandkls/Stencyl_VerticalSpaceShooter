@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="33" extheight="544" extwidth="384" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="3" name="GameLevel2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="320">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <background blendMode="normal" customScrollFactor="true" id="1" locked="true" name="BackgroundGreenNebula" opacity="100" order="3" rid="45" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="true" id="2" locked="true" name="MidGroundGreenStars" opacity="100" order="2" rid="46" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="3" locked="true" name="Foreground Stars" opacity="100" order="1" rid="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="39" name="alien_icon 1" sx="1.0" sy="1.0" x="-53" y="6" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="7" name="Comet 2" sx="1.0" sy="1.0" x="332" y="7" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="9" name="CometLarge 3" sx="1.0" sy="1.0" x="325" y="47" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="11" name="FlyingSaucer 4" sx="1.0" sy="1.0" x="334" y="106" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="43" name="HUDGreenRay_icon 5" sx="1.0" sy="1.0" x="-42" y="30" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="41" name="HUDRedRay_icon 6" sx="1.0" sy="1.0" x="-45" y="50" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="37" name="lrgcomet_icon 7" sx="1.0" sy="1.0" x="-40" y="77" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="31" name="pcship_icon 8" sx="1.0" sy="1.0" x="-55" y="109" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="5" name="Power_Up 9" sx="1.0" sy="1.0" x="342" y="173" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="33" name="Powerup_Icon 10" sx="1.0" sy="1.0" x="-42" y="143" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="35" name="smcomet_icon 11" sx="1.0" sy="1.0" x="-43" y="178" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="3" name="SpaceShip 12" sx="1.0" sy="1.0" x="338" y="232" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="13" name="UFO_Gun 13" sx="1.0" sy="1.0" x="333" y="217" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="12">
+            <prop id="1" list="0" val="2"/>
+            <prop id="2" list="0" val="3"/>
+            <prop id="3" list="0" val="9"/>
+            <prop id="4" list="0" val="4"/>
+            <prop id="5" list="0" val="0.0"/>
+            <prop id="6" list="0" val="0.0"/>
+            <prop id="7" list="0" val="0.0"/>
+            <prop id="8" list="0" val="0.0"/>
+            <prop id="9" list="0" val="0"/>
+            <prop id="10" list="0" val="13"/>
+            <prop id="11" list="0" val="-1"/>
+            <prop id="12" list="0" val="0.0"/>
+            <prop id="15" list="0" val="12"/>
+            <prop id="16" list="0" val="150.0"/>
+            <prop id="17" list="0" val="368.0"/>
+            <prop id="18" list="0" val="0.0"/>
+            <prop id="19" list="0" val="0.0"/>
+            <prop id="20" list="0" val="0.0"/>
+            <prop id="21" list="0" val="0.0"/>
+            <prop id="22" list="0" val="0"/>
+            <prop id="23" list="0" val="0.0"/>
+            <prop id="24" list="0" val="0"/>
+            <prop id="25" list="0" val="5.0"/>
+            <prop id="26" list="0" val="10"/>
+            <prop id="27" list="0" val="10.0"/>
+            <prop id="28" list="0" val="8"/>
+            <prop id="29" list="0" val="1"/>
+            <prop id="30" list="0" val="10"/>
+            <prop id="31" list="0" val="0.0"/>
+            <prop id="32" list="0" val="0.0"/>
+            <prop id="33" list="0" val="0.0"/>
+            <prop id="34" list="0" val="0.0"/>
+            <prop id="35" list="0" val="50"/>
+            <prop id="36" list="0" val="50.0"/>
+            <prop id="37" list="0" val="11"/>
+            <prop id="38" list="0" val="7"/>
+            <prop id="39" list="0" val="0.0"/>
+            <prop id="40" list="0" val="0"/>
+            <prop id="41" list="0" val="6"/>
+            <prop id="42" list="0" val="5"/>
+            <prop id="43" list="0" val="5"/>
+            <prop id="44" list="0" val="5.0"/>
+            <prop id="45" list="0" val="0"/>
+            <prop id="46" list="0" val="5"/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

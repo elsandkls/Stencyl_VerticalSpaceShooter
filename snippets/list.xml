@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="0" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="3" attachedevent="true" class="scripts.ActorEvents_3" classname="scripts.ActorEvents_3" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_3" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="5" attachedevent="true" class="scripts.ActorEvents_5" classname="scripts.ActorEvents_5" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" name="ActorEvents_5" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="7" attachedevent="true" class="scripts.ActorEvents_7" classname="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="3" name="ActorEvents_7" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="9" attachedevent="true" class="scripts.ActorEvents_9" classname="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_9" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="11" attachedevent="true" class="scripts.ActorEvents_11" classname="scripts.ActorEvents_11" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_11" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="13" attachedevent="true" class="scripts.ActorEvents_13" classname="scripts.ActorEvents_13" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="6" name="ActorEvents_13" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="15" attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="7" name="ActorEvents_15" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="17" attachedevent="true" class="scripts.ActorEvents_17" classname="scripts.ActorEvents_17" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" name="ActorEvents_17" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="19" attachedevent="true" class="scripts.ActorEvents_19" classname="scripts.ActorEvents_19" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="9" name="ActorEvents_19" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="21" attachedevent="true" class="scripts.ActorEvents_21" classname="scripts.ActorEvents_21" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="10" name="ActorEvents_21" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_11_11_PCHandler" classname="scripts.Design_11_11_PCHandler" desc="" description="" design="true" drawOrder="0" id="11" name="PCHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Speed" hidden="true" id="1" name="_Speed" order="6"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="LastProjectile" hidden="true" id="2" name="_LastProjectile" order="5"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="ProjectileSpeed" hidden="true" id="3" name="_ProjectileSpeed" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="RayGunPositionX" hidden="true" id="9" name="_RayGunPositionX" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="OffSetX" hidden="true" id="10" name="_OffSetX" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="RayGunPositionY" hidden="true" id="11" name="_RayGunPositionY" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="CountRedRay" hidden="false" id="12" name="_CountRedRay" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="XofActor" hidden="true" id="13" name="_XofActor" order="4"/>
+        <number default="1.0" defaultValue="1.0" desc="" dropdown="" fullname="PowerLevel_PC" hidden="false" id="14" name="_PowerLevel_PC" order="9"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="3" name="init" order="6" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="4" name="step" order="7" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_12_12_LevelHandler" classname="scripts.Design_12_12_LevelHandler" desc="" description="" design="true" drawOrder="0" id="12" name="LevelHandler" oid="-1" package="scripts" shared="false" type="scene">
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Metor Small" hidden="false" id="1" name="_LastMetorSmall" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Metor Large" hidden="false" id="2" name="_LastMetorLarge" order="1"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Power Up" hidden="false" id="3" name="_LastPowerUp" order="2"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Alien" hidden="false" id="4" name="_LastAlien" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="activeCountofAlien" hidden="false" id="5" name="_activeCountofAlien" order="10"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="activeCountofPU" hidden="false" id="6" name="_activeCountofPU" order="11"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="activeCountofLrgComet" hidden="false" id="7" name="_activeCountofLrgComet" order="12"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="activeCountofSmComet" hidden="false" id="8" name="_activeCountofSmComet" order="13"/>
+        <number default="1" defaultValue="1" desc="" dropdown="" fullname="PowerLevel_PC" hidden="false" id="9" name="_PowerLevel_PC" order="16"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Alien Gun" hidden="false" id="10" name="_LastAlienGun" order="4"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Projectile" hidden="false" id="11" name="_LastProjectile" order="5"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Projectile Speed" hidden="false" id="12" name="_ProjectileSpeed" order="19"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="PC_Ship" hidden="false" id="15" name="_PCShip" order="6"/>
+        <number default="150.0" defaultValue="150.0" desc="" dropdown="" fullname="DefaultPCShipX" hidden="false" id="16" name="_DefaultPCShipX" order="20"/>
+        <number default="368.0" defaultValue="368.0" desc="" dropdown="" fullname="DefaultPCShipY" hidden="false" id="17" name="_DefaultPCShipY" order="21"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Speed" hidden="false" id="18" name="_Speed" order="22"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="OffSetX" hidden="false" id="21" name="_OffSetX" order="25"/>
+        <number default="1" defaultValue="1" desc="" dropdown="" fullname="PowerLevel_Alien" hidden="false" id="22" name="_PowerLevel_Alienl" order="17"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="PCScore" hidden="false" id="23" name="_PCScore" order="26"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="FontSpacing" hidden="false" id="24" name="_FontSpacing" order="28"/>
+        <number default="5.0" defaultValue="5.0" desc="" dropdown="" fullname="PtsLrgComet" hidden="false" id="25" name="_PtsLrgComet" order="31"/>
+        <number default="10" defaultValue="10" desc="" dropdown="" fullname="PtsSmComet" hidden="false" id="26" name="_PtsSmComet" order="32"/>
+        <number default="10.0" defaultValue="10.0" desc="" dropdown="" fullname="PtsPowerUp" hidden="false" id="27" name="_PtsPowerUp" order="33"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="HUDShipScore" hidden="false" id="28" name="_HUDShipScore" order="7"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="HUDAlienScore" hidden="false" id="29" name="_HUDAlienScore" order="8"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="HUDPowerLevel" hidden="false" id="30" name="_HUDPowerLevel" order="9"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="activeCountofActors" hidden="false" id="31" name="_activeCountofActors" order="14"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="CountRedRay" hidden="false" id="32" name="_CountRedRay" order="29"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="CountedGreenRay" hidden="false" id="33" name="_CountedGreenRay" order="30"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="AlienScore" hidden="false" id="34" name="_AlienScore" order="27"/>
+        <number default="50" defaultValue="50" desc="" dropdown="" fullname="PtsPCShip" hidden="false" id="35" name="_PtsPCShip" order="34"/>
+        <number default="50.0" defaultValue="50.0" desc="" dropdown="" fullname="PtsAlienShip" hidden="false" id="36" name="_PtsAlienShip" order="35"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="HUDSmComet" hidden="false" id="37" name="_HUDSmComet" order="36"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="HUDLrgComet" hidden="false" id="38" name="_HUDLrgComet" order="37"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="XofActor" hidden="false" id="39" name="_XofActor" order="38"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="YofActor" hidden="false" id="40" name="_YofActor" order="39"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="HUDRedRay" hidden="false" id="41" name="_HUDRedRay" order="40"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="HUDGreenRay" hidden="false" id="42" name="_HUDGreenRay" order="41"/>
+        <number default="5" defaultValue="5" desc="" dropdown="" fullname="AlienHealth" hidden="false" id="43" name="_AlienHealth" order="42"/>
+        <number default="5.0" defaultValue="5.0" desc="" dropdown="" fullname="PCShipHealth" hidden="false" id="44" name="_PCShipHealth" order="43"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="intDebug" hidden="false" id="45" name="_intDebug" order="15"/>
+        <number default="5" defaultValue="5" desc="" dropdown="" fullname="PCLives" hidden="false" id="46" name="_PCLives" order="18"/>
+        <blocks/>
+        <events>
+            <event displayName="EveryNSecondsCometsLrg" enabled="true" id="2" name="event-periodic" order="7" repeats="true"/>
+            <event displayName="CollisionSmComets" enabled="true" id="3" name="event-collide-typetotype" order="40" repeats="true"/>
+            <event displayName="CollisionLrgComets" enabled="true" id="4" name="event-collide-typetotype" order="46" repeats="true"/>
+            <event displayName="CollisionSmCometsVsPU" enabled="true" id="10" name="event-collide-typetotype" order="45" repeats="true"/>
+            <event displayName="CollisionLrgCometVsRedRay" enabled="true" id="15" name="event-collide-typetotype" order="43" repeats="true"/>
+            <event displayName="CollisionSmCometVsRedRay" enabled="true" id="16" name="event-collide-typetotype" order="41" repeats="true"/>
+            <event displayName="LrgCometDies" enabled="true" id="18" name="event-type-create-kill" order="34" repeats="true"/>
+            <event displayName="SmCometDies" enabled="true" id="19" name="event-type-create-kill" order="33" repeats="true"/>
+            <event displayName="PowerUpDies" enabled="true" id="22" name="event-type-create-kill" order="30" repeats="true"/>
+            <event displayName="EveryNSecondsPU" enabled="true" id="29" name="event-periodic" order="9" repeats="true"/>
+            <event displayName="EveryNSecondsAlienShip" enabled="true" id="31" name="event-periodic" order="2" repeats="true"/>
+            <event displayName="PlayerShipDies" enabled="true" id="32" name="event-type-create-kill" order="35" repeats="true"/>
+            <event displayName="AlienDies" enabled="true" id="33" name="event-type-create-kill" order="36" repeats="true"/>
+            <event displayName="EveryNSecondsCometsSml" enabled="true" id="34" name="event-periodic" order="8" repeats="true"/>
+            <event displayName="CollisionPCShipVsPU" enabled="true" id="35" name="event-collide-typetotype" order="50" repeats="true"/>
+            <event displayName="CollisionPCShipVsSmComets" enabled="true" id="36" name="event-collide-typetotype" order="47" repeats="true"/>
+            <event displayName="CollisionPCShipVsLrgComets" enabled="true" id="37" name="event-collide-typetotype" order="48" repeats="true"/>
+            <event displayName="CollisionPCShipVSGreenRay" enabled="true" id="38" name="event-collide-typetotype" order="51" repeats="true"/>
+            <event displayName="CollisionPCShipVSAlien" enabled="true" id="39" name="event-collide-typetotype" order="49" repeats="true"/>
+            <event displayName="CollisionAlienVsSmComet" enabled="true" id="40" name="event-collide-typetotype" order="53" repeats="true"/>
+            <event displayName="CollisionAlienVsLrgComet" enabled="true" id="41" name="event-collide-typetotype" order="54" repeats="true"/>
+            <event displayName="CollisionAlienVsGreenRay" enabled="true" id="42" name="event-collide-typetotype" order="55" repeats="true"/>
+            <event displayName="CollisionAlienVsPU" enabled="true" id="43" name="event-collide-typetotype" order="57" repeats="true"/>
+            <event displayName="CollisionSmCometVsGreenRay" enabled="true" id="45" name="event-collide-typetotype" order="42" repeats="true"/>
+            <event displayName="CollisionLrgCometVsGreenRay" enabled="true" id="46" name="event-collide-typetotype" order="44" repeats="true"/>
+            <event displayName="DrawingHUD" enabled="true" id="47" name="draw" order="25" repeats="true"/>
+            <event displayName="Created" enabled="true" id="48" name="init" order="10" repeats="true"/>
+            <event displayName="RedRayDies" enabled="true" id="49" name="event-type-create-kill" order="38" repeats="true"/>
+            <event displayName="GreenRayDies" enabled="true" id="50" name="event-type-create-kill" order="39" repeats="true"/>
+            <event displayName="CollisionPCShipVSRedRay" enabled="true" id="51" name="event-collide-typetotype" order="52" repeats="true"/>
+            <event displayName="CollisionAlienVsRedRay" enabled="true" id="52" name="event-collide-typetotype" order="56" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_13_13_CannotExitScreen" classname="scripts.Design_13_13_CannotExitScreen" desc="Prevent the actor from leaving the screen." description="Prevent the actor from leaving the screen." design="true" drawOrder="0" id="13" name="Cannot_Exit_Screen" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="3" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_14_14_DieAfterXSeconds" classname="scripts.Design_14_14_DieAfterXSeconds" desc="" description="" design="true" drawOrder="0" id="14" name="Die_After_X_Seconds" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="After N secs" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_16_16_WaveMotion" classname="scripts.Design_16_16_WaveMotion" desc="Make the actor move in a wavelike motion." description="Make the actor move in a wavelike motion." design="true" drawOrder="0" id="16" name="Wave Motion" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Start X" hidden="true" id="1" name="_StartX" order="1"/>
+        <number default="128.0" defaultValue="128.0" desc="The distance after which the wave repeats itself." dropdown="" fullname="Wavelength" hidden="false" id="2" name="_Wavelength" order="7"/>
+        <number default="64" defaultValue="64" desc="The distance between the peak and the initial axis." dropdown="" fullname="Amplitude" hidden="false" id="3" name="_Amplitude" order="6"/>
+        <text default="Horizontal" defaultValue="Horizontal" desc="The movement direction." dropdown="Horizontal=Horizontal&#10;Vertical=Vertical" fullname="Direction" hidden="false" id="4" name="_Direction" order="4"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Start Y" hidden="true" id="5" name="_StartY" order="2"/>
+        <number default="5" defaultValue="5" desc="The starting speed.&lt;br /&gt;&#10;If &lt;var&gt;Direction&lt;/var&gt; is &lt;var&gt;Horizontal&lt;/var&gt;, the actor will move to the right if &lt;var&gt;Starting Speed&lt;/var&gt; is positive, or to the left if it is negative.&lt;br /&gt;&#10;If &lt;var&gt;Direction&lt;/var&gt; is &lt;var&gt;Vertical&lt;/var&gt;, the actor will move to down if &lt;var&gt;Starting Speed&lt;/var&gt; is positive, or up if it is negative.&lt;br /&gt;" dropdown="" fullname="Starting Speed" hidden="false" id="6" name="_StartingSpeed" order="5"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Wavenumber" hidden="true" id="7" name="_Wavenumber" order="3"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_17_17_AlienHandler" classname="scripts.Design_17_17_AlienHandler" desc="" description="" design="true" drawOrder="0" id="17" name="AlienHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="LastCreatedGun" hidden="false" id="1" name="_LastCreatedGun" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="ExitScreenAlien" enabled="true" id="5" name="event-type-screen" order="7" repeats="true"/>
+            <event displayName="Created" enabled="true" id="10" name="init" order="2" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="11" name="step" order="4" repeats="true"/>
+            <event displayName="Actor Dies" enabled="true" id="12" name="event-actor-create-kill" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_21_21_LrgCometHandler" classname="scripts.Design_21_21_LrgCometHandler" desc="" description="" design="true" drawOrder="0" id="21" name="LrgCometHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="LastLrgComet" hidden="false" id="1" name="_LastLrgComet" order="1"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Metor Large" hidden="false" id="2" name="_LastMetorLarge" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="ExitScreenLrgComet" enabled="true" id="3" name="event-type-screen" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_22_22_SmlCometHandler" classname="scripts.Design_22_22_SmlCometHandler" desc="" description="" design="true" drawOrder="0" id="22" name="SmlCometHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="ExitScreenSmComet" enabled="true" id="1" name="event-type-screen" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_23_23_RedRayHandler" classname="scripts.Design_23_23_RedRayHandler" desc="" description="" design="true" drawOrder="0" id="23" name="RedRayHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="LastSmlComet" hidden="false" id="1" name="_LastSmlComet" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="ExitScreenRedRay" enabled="true" id="1" name="event-type-screen" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_24_24_GreenRayHandler" classname="scripts.Design_24_24_GreenRayHandler" desc="" description="" design="true" drawOrder="0" id="24" name="GreenRayHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="ExitScreenGreenRay" enabled="true" id="1" name="event-type-screen" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_25_25_PowerUpHandler" classname="scripts.Design_25_25_PowerUpHandler" desc="" description="" design="true" drawOrder="0" id="25" name="PowerUpHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="ExitScreenPowerUp" enabled="true" id="1" name="event-type-screen" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="31" attachedevent="true" class="scripts.ActorEvents_31" classname="scripts.ActorEvents_31" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="26" name="ActorEvents_31" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="33" attachedevent="true" class="scripts.ActorEvents_33" classname="scripts.ActorEvents_33" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="27" name="ActorEvents_33" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="35" attachedevent="true" class="scripts.ActorEvents_35" classname="scripts.ActorEvents_35" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="28" name="ActorEvents_35" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="37" attachedevent="true" class="scripts.ActorEvents_37" classname="scripts.ActorEvents_37" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="29" name="ActorEvents_37" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="39" attachedevent="true" class="scripts.ActorEvents_39" classname="scripts.ActorEvents_39" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="30" name="ActorEvents_39" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="41" attachedevent="true" class="scripts.ActorEvents_41" classname="scripts.ActorEvents_41" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="31" name="ActorEvents_41" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="43" attachedevent="true" class="scripts.ActorEvents_43" classname="scripts.ActorEvents_43" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="32" name="ActorEvents_43" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_3" classname="scripts.SceneEvents_3" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="33" name="SceneEvents_3" oid="-1" package="scripts." sceneid="3" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_4" classname="scripts.SceneEvents_4" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="34" name="SceneEvents_4" oid="-1" package="scripts." sceneid="4" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_5" classname="scripts.SceneEvents_5" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="35" name="SceneEvents_5" oid="-1" package="scripts." sceneid="5" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_6" classname="scripts.SceneEvents_6" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="36" name="SceneEvents_6" oid="-1" package="scripts." sceneid="6" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_37_37_AlienGunHandler" classname="scripts.Design_37_37_AlienGunHandler" desc="" description="" design="true" drawOrder="0" id="37" name="AlienGunHandler" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="PC_Ship" hidden="true" id="1" name="_PCShip" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="RayGunPositionX" hidden="true" id="2" name="_RayGunPositionX" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="RayGunPositionY" hidden="true" id="4" name="_RayGunPositionY" order="4"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Last Projectile" hidden="true" id="6" name="_LastProjectile" order="6"/>
+        <blocks/>
+        <events>
+            <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+</pack>
