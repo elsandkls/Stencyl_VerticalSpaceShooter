@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-type-screen comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <dolater comment="false" x="26" y="47">
+                    <group eventID="5" id="-1">
+                        <if comment="false" x="37" y="74">
+                            <group eventID="5" id="-1"/>
+                            <isonscreen comment="false" id="0" x="0" y="0">
+                                <actor-entered-exited comment="false" id="0" x="0" y="0"/>
+                            </isonscreen>
+                        </if>
+                        <else comment="false" x="37" y="144">
+                            <group eventID="5" id="-1">
+                                <die comment="false" x="48" y="164">
+                                    <actor-entered-exited comment="false" id="0" x="0" y="0"/>
+                                </die>
+                            </group>
+                        </else>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+            <actortype eid="15" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="1"/>
+        </event-type-screen>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="10" id="-1">
+                <ignore-screen-tolerance comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+                <backforward comment="false" x="26" y="67">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="3"/>
+                </backforward>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

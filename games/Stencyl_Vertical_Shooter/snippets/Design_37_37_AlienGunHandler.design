@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="1" id="-1">
+                        <spinToBy comment="false" x="37" y="75">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="var" id="0" vid="1"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <int id="3" val="0.1"/>
+                            <int id="4" val="0"/>
+                        </spinToBy>
+                        <if comment="false" x="37" y="115">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="48" y="145">
+                                    <actortype eid="15" id="0"/>
+                                    <get-xy comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="2"/>
+                                    </get-xy>
+                                    <get-xy comment="false" id="2" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="3"/>
+                                    </get-xy>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <set-val-37-6 comment="false" x="48" y="185">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                </set-val-37-6>
+                                <ignore-screen-tolerance comment="false" x="48" y="212">
+                                    <get-val-37-6 comment="false" id="0" x="0" y="0"/>
+                                </ignore-screen-tolerance>
+                                <setvel comment="false" x="48" y="244">
+                                    <get-val-37-6 comment="false" id="0" x="0" y="0"/>
+                                    <to-degreesradians comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <get-xy comment="false" id="1" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                    </to-degreesradians>
+                                    <int id="2" val="-50"/>
+                                </setvel>
+                            </group>
+                            <less comment="false" id="0" x="0" y="0">
+                                <randint comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <int id="1" val="400"/>
+                                </randint>
+                                <int id="1" val="100"/>
+                            </less>
+                        </if>
+                    </group>
+                    <isonscreen comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </isonscreen>
+                </if>
+            </group>
+            <int id="0" val="2"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <ignore-screen-tolerance comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+                <set-val-37-1 comment="false" x="26" y="67">
+                    <scene-get-attribute comment="false" id="0" x="0" y="0">
+                        <int id="0" val="LevelHandler"/>
+                        <int id="1" val="_PCShip"/>
+                    </scene-get-attribute>
+                </set-val-37-1>
+                <backforward comment="false" x="26" y="99">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="3"/>
+                </backforward>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

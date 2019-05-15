@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<section id="defines">
+		
+		<set name="ANDROID_SETUP" value="true" />
+		<set name="ANDROID_INSTALL_LOCATION" value="auto" />
+		<set name="ANDROID_NDK_ROOT" value="" />
+		<set name="ANDROID_SDK" value="" />
+		<set name="ANDROID_HOST" value="windows" />
+		<set name="JAVA_HOME" value="" />
+		
+		
+	
+	</section>
+	
+</config>

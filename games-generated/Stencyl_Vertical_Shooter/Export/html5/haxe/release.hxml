@@ -1,0 +1,54 @@
+-main ApplicationMain 
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/stencyl/1,00
+-D stencyl=4.0.1
+--macro openfl._internal.macros.ExtraParams.include()
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/openfl/openfl/src
+-D openfl=8.7.0
+--macro lime._internal.macros.DefineMacro.run()
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/lime/lime/src
+-D lime=7.2.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/tweenxcore/1,0,4
+-D tweenxcore=1.0.4
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/debug-console/1,00
+-D debug-console=0.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/polygonal-ds/2,0,0/src
+-D polygonal-ds=2.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/polygonal-printf/1,0,0-beta
+-D polygonal-printf=1.0.0-beta
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/box2d/1,11
+-D box2d=0.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/cloner/git
+-D cloner=1.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/mbs/1,0,0
+-D mbs=1.0.0
+--macro keep('IntIterator')
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/hscript/2,1,1
+-D hscript=2.1.1
+-cp Source
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/extensions/gestures
+-D actuate_manual_time
+-D use_tilemap
+-D openfl-enable-handle-error
+-D howlerjs
+-D lime-webgl
+-D lime-dom
+-D lime-howlerjs
+-D lime-html5
+-D testing
+-D stencyltools
+-D tools=7.2.0
+-D lime-canvas
+-D no-compilation
+-D openfl-html5
+-D actuate_manual_update
+-D verbose=1
+-D html5
+-D web
+--remap nme:openfl
+--remap flash:openfl
+-resource Config/game-config.json@config_game_config_json
+-resource Config/preloadPaths.txt@config_preloadpaths_txt
+-resource Config/preloader-badge.txt@config_preloader_badge_txt
+-js Export/html5/bin/Stencyl_Vertical_Shooter.js
+-cp Export/html5/haxe
+-D html5

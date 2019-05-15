@@ -1,0 +1,68 @@
+{
+	"antialias": true,
+	"buildConfig": {"debug":false,"extra":[],"platform":"windows"},
+	"debugDraw": false,
+	"disposeImages": false,
+	"forceHiResAssets": true,
+	"initSceneID": 0,
+	"keys": {
+		"up": ["UP"],
+		"down": ["DOWN"],
+		"left": ["LEFT"],
+		"right": ["RIGHT"],
+		"action1": ["Z"],
+		"action2": ["X"],
+		"enter": ["ENTER"]
+		
+	},
+	"pixelsnap": false,
+	"physicsMode": "NORMAL_PHYSICS",
+	"releaseMode": false,
+	"showConsole": false,
+	"stageWidth": 640,
+	"stageHeight": 480,
+	"toolsetInterfaceHost": "localhost",
+	"toolsetInterfacePort": 18525,
+	"useGciLogging": false,
+	
+	"config-mobile": {
+		"adPositionBottom": true,
+		"autorotate": false,
+		"gameScale": 1,
+		"landscape": false,
+		"testAds": false,
+		"toolsetInterfaceHost": "192.168.21.107",
+
+		"config-android": {
+			"disableBackButton": false,
+			"scaleMode": "NO_SCALING",
+			"scales": ["1x","1.5x","2x","3x","4x"]
+		},
+		
+		"config-ios": {
+			"scaleMode": "NO_SCALING",
+			"scales": ["1x","1.5x","2x","3x","4x"]
+		}
+	},
+	
+	"config-desktop": {
+		"gameScale": 1.0,
+		"scaleMode": "NO_SCALING",
+		"scales": ["1x","1.5x","2x","3x","4x"],
+		"startInFullScreen": false
+	},
+	
+	"config-web": {
+		"gameScale": 1.0,
+		"startInFullScreen": false,
+		"scales": ["1x","1.5x","2x","3x","4x"],
+
+		"config-flash": {
+			"scaleMode": "NO_SCALING"
+		},
+		
+		"config-html5": {
+			"toolsetInterfaceHost": "192.168.21.107"
+		}
+	}
+}

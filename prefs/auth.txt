@@ -1,0 +1,2 @@
+global.password=968890b1f2f5be2bb015cc143cee1694cfeb9714
+global.user=elsandkls

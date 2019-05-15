@@ -1,0 +1,3 @@
+hxcpp_api_level=331
+no_console=1
+hxcpp=Z:\Program Files (x86)\Stencyl\plaf\haxe\lib\hxcpp/hxcpp/

@@ -1,0 +1,508 @@
+2019-05-13 08:22:21,303 INFO  [main] stencyl.sw.Session: Logfile: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\logs\2019-05-13_08-22-21.log
+2019-05-13 08:22:21,307 INFO  [main] stencyl.sw.Session: OS Name: Windows 8.1
+2019-05-13 08:22:21,308 INFO  [main] stencyl.sw.Session: OS Version: 6.3 (64-bit)
+2019-05-13 08:22:21,308 INFO  [main] stencyl.sw.Session: Java Version: 1.8.0_60
+2019-05-13 08:22:21,308 INFO  [main] stencyl.sw.Session: Java Home Environment Variable (JAVA_HOME): not set
+2019-05-13 08:22:21,309 INFO  [main] stencyl.sw.Session: Stencyl Version: 4.0.1 (b10300)
+2019-05-13 08:22:21,309 INFO  [main] stencyl.sw.Session: Stencyl Workspace: C:\Users\els\AppData\Roaming\Stencyl\
+2019-05-13 08:22:21,309 INFO  [main] stencyl.sw.Session: User Working Directory: Z:\Program Files (x86)\Stencyl
+2019-05-13 08:22:21,309 INFO  [main] stencyl.sw.Session: User Home Directory: C:\Users\els
+2019-05-13 08:22:21,310 INFO  [main] stencyl.sw.Session: System Path: C:\Python27\;C:\Python27\Scripts;Z:\Program Files (x86)\Python37-32\Scripts\;Z:\Program Files (x86)\Python37-32\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;Z:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Autodesk\Backburner\;Z:\Program Files\Java\jdk1.8.0_191\bin\;Z:\Program Files\Python\python;Z:\Users\els\eclipse_cpp_workspace; Z:\Users\els\eclipse_workspace; ;Z:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\els\AppData\Local\GitHubDesktop\bin;C:\Users\els\AppData\Roaming\npm;Z:\Users\els\AppData\Local\Programs\Microsoft VS Code\bin;Z:\Program Files (x86)\Stencyl\runtimes\jre-win\bin
+2019-05-13 08:22:21,314 DEBUG [main] stencyl.sw.util.Util: Running command: [Z:\Program Files (x86)\Stencyl\plaf\haxe-bin\windows\haxe.exe, -version]
+2019-05-13 08:22:21,392 DEBUG [main] stencyl.sw.util.Util: Process 'haxe.exe' exited with code: 0
+2019-05-13 08:22:21,393 INFO  [main] stencyl.sw.Session: Haxe Version: 3.4.7
+2019-05-13 08:22:21,398 DEBUG [main] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913
+2019-05-13 08:22:21,399 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2019-05-13 08:22:21,402 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2019-05-13 08:22:21,403 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2019-05-13 08:22:21,404 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2019-05-13 08:22:21,405 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2019-05-13 08:22:21,406 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2019-05-13 08:22:21,407 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2019-05-13 08:22:21,407 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2019-05-13 08:22:21,407 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2019-05-13 08:22:21,408 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2019-05-13 08:22:21,409 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2019-05-13 08:22:21,410 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2019-05-13 08:22:21,410 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-gamecontroller.lang
+2019-05-13 08:22:21,410 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2019-05-13 08:22:21,411 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2019-05-13 08:22:21,415 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2019-05-13 08:22:21,417 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2019-05-13 08:22:21,418 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2019-05-13 08:22:21,418 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2019-05-13 08:22:21,418 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2019-05-13 08:22:21,418 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2019-05-13 08:22:21,419 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2019-05-13 08:22:21,419 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2019-05-13 08:22:21,419 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2019-05-13 08:22:21,420 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2019-05-13 08:22:21,420 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2019-05-13 08:22:21,420 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2019-05-13 08:22:21,421 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2019-05-13 08:22:21,421 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2019-05-13 08:22:21,421 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2019-05-13 08:22:21,421 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2019-05-13 08:22:21,422 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2019-05-13 08:22:21,422 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2019-05-13 08:22:21,423 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2019-05-13 08:22:21,423 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2019-05-13 08:22:21,423 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2019-05-13 08:22:21,424 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2019-05-13 08:22:21,424 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2019-05-13 08:22:21,425 INFO  [AWT-EventQueue-0] stencyl.sw.SW: Initializing Stencyl.
+2019-05-13 08:22:21,428 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Set Splash message: Look
+2019-05-13 08:22:21,956 DEBUG [AWT-EventQueue-0] stencyl.sw.util.net.SocketServer: To see more socket debugging, run with env var DEBUG_STENCYL_SOCKETS=true.
+2019-05-13 08:22:21,957 DEBUG [AWT-EventQueue-0] stencyl.sw.util.net.SocketServer: To see more socket debugging, run with env var DEBUG_STENCYL_SOCKETS=true.
+2019-05-13 08:22:21,958 INFO  [FlashPolicyServer] stencyl.sw.util.net.SocketServer: FlashPolicyServer started on port 843
+2019-05-13 08:22:21,958 INFO  [GameInterfaceServer] stencyl.sw.util.net.SocketServer: GameInterfaceServer started on port 18525
+2019-05-13 08:22:22,130 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Extension Dependencies: {STENCYLBUILD={=stencylbuild-10300.0.0}, ENGINE={}, TOOLSET={}, JAVA={=java-1.8.0}, STENCYL={=stencyl-4.0.1}, HAXELIB={cloner=haxelib-cloner-1.0.0, hxp=haxelib-hxp-1.0.1, polygonal-printf=haxelib-polygonal-printf-1.0.0-beta, stencyl-cppia=haxelib-stencyl-cppia-1.0.7, hxcpp=haxelib-hxcpp-4.0.0, swf=haxelib-swf-1.7.4, box2d=haxelib-box2d-1.11.0, svg=haxelib-svg-1.1.2, lime=haxelib-lime-7.2.0, format=haxelib-format-3.4.1, debug-console=haxelib-debug-console-1.0.0, stencyl=haxelib-stencyl-4.0.1, tweenxcore=haxelib-tweenxcore-1.0.4, layout=haxelib-layout-1.1.0, hxtelemetry=haxelib-hxtelemetry-0.3.5, openfl=haxelib-openfl-8.7.0, tilelayer=haxelib-tilelayer-0.2.1, polygonal-ds=haxelib-polygonal-ds-2.0.0, box2d-fake=haxelib-box2d-fake-1.11.0, hscript=haxelib-hscript-2.1.1, mbs=haxelib-mbs-1.0.0}}
+2019-05-13 08:22:22,135 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\els\AppData\Roaming\Stencyl\stencylworks\extensions: []
+2019-05-13 08:22:22,135 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\els\AppData\Roaming\Stencyl\stencylworks\extensions: []
+2019-05-13 08:22:22,135 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Loading engine extensions...
+2019-05-13 08:22:22,137 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\els\AppData\Roaming\Stencyl\stencylworks\engine-extensions: []
+2019-05-13 08:22:22,137 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Directories within C:\Users\els\AppData\Roaming\Stencyl\stencylworks\engine-extensions: []
+2019-05-13 08:22:22,137 INFO  [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Engine Extensions: []
+2019-05-13 08:22:22,138 INFO  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Extension settings not found. Creating settings file...
+2019-05-13 08:22:22,166 INFO  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Toolset Extensions: []
+2019-05-13 08:22:22,307 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2019-05-13 08:22:24,880 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Non-silent Authentication.
+2019-05-13 08:22:24,893 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Dispose Splash
+2019-05-13 08:22:25,062 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Response: guest
+2019-05-13 08:22:25,063 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Could not log in. Check your login credentials.
+2019-05-13 08:23:33,290 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Response: user:::plans0
+2019-05-13 08:23:33,290 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\prefs\auth.txt
+2019-05-13 08:23:33,303 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Logged in as: elsandkls
+2019-05-13 08:23:33,303 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Usergroup: Registered
+2019-05-13 08:23:33,461 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: 200
+2019-05-13 08:23:33,632 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: 
+2019-05-13 08:23:41,558 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Action: Import Game...
+2019-05-13 08:24:43,064 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913vert_space_shooter_v2.zip
+2019-05-13 08:24:43,065 ERROR [pool-1-thread-2] stencyl.sw.util.FileHelper: Failed to delete file or directory: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913vert_space_shooter_v2.zip
+2019-05-13 08:24:44,194 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.ImportGameTask: Took 3704ms
+2019-05-13 08:24:46,238 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913\sandbox\test\temp
+2019-05-13 08:24:46,240 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+2019-05-13 08:24:46,240 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\game
+2019-05-13 08:24:46,240 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: vert_space_shooter_v2
+2019-05-13 08:24:46,294 ERROR [pool-1-thread-2] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash.png isn't a png image
+2019-05-13 08:24:46,294 ERROR [pool-1-thread-2] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash6p.png isn't a png image
+2019-05-13 08:24:46,295 ERROR [pool-1-thread-2] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splashx.png isn't a png image
+2019-05-13 08:24:46,331 ERROR [AWT-EventQueue-0] root: Unexpected problem on thread AWT-EventQueue-0: java.lang.IllegalArgumentException: input == null!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: input == null!
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:74)
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:54)
+	at stencyl.sw.app.tasks.OpenGameTask.done(OpenGameTask.java:365)
+	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.IllegalArgumentException: input == null!
+	at javax.imageio.ImageIO.read(ImageIO.java:1298)
+	at stencyl.sw.util.gfx.ImageUtil.readRasterImage(ImageUtil.java:180)
+	at stencyl.core.lib.Game.updateSplashScreenToStoryboard(Game.java:1818)
+	at stencyl.core.lib.Game.<init>(Game.java:1716)
+	at stencyl.core.lib.Game.create(Game.java:697)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:335)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:49)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:26:18,374 ERROR [AWT-EventQueue-0] stencyl.sw.editors.game.settings.GameLogoAction: No registered ImageReader available for file Z:\Users\els\eclipse-stencyl\StencylWorkSpace\back_up_morning_2018_12_21.zip
+java.io.IOException: No registered ImageReader available for file Z:\Users\els\eclipse-stencyl\StencylWorkSpace\back_up_morning_2018_12_21.zip
+	at stencyl.sw.util.gfx.ImageUtil.readRasterImage(ImageUtil.java:189)
+	at stencyl.sw.util.gfx.ImageUtil.readImage(ImageUtil.java:172)
+	at stencyl.sw.editors.game.settings.GameLogoAction.actionPerformed(GameLogoAction.java:73)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1673)
+	at java.awt.Component.setVisible(Component.java:1625)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at stencyl.sw.editors.game.settings.GamePropertiesDialog.<init>(GamePropertiesDialog.java:294)
+	at stencyl.sw.editors.game.settings.GamePropertiesDialog.showNewGameDialog(GamePropertiesDialog.java:204)
+	at stencyl.sw.app.App.showNewGameDialog(App.java:1079)
+	at stencyl.sw.app.welcome.WelcomeCenter.create(WelcomeCenter.java:898)
+	at stencyl.sw.app.lists.AbstractList$3.mousePressed(AbstractList.java:209)
+	at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:280)
+	at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:279)
+	at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:279)
+	at java.awt.Component.processMouseEvent(Component.java:6532)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at stencyl.sw.app.lists.AbstractList.processMouseEvent(AbstractList.java:288)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4522)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-05-13 08:26:51,201 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2
+2019-05-13 08:26:55,556 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Action: Import Game...
+2019-05-13 08:27:29,869 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913game.xml.zip
+2019-05-13 08:27:29,870 DEBUG [AWT-EventQueue-0] stencyl.sw.util.dg.MessageDialog: Not a Stencyl Project - The file "Z:\Users\els\Documents\GitHub\Stencyl_VerticalSpaceShooter\game.xml.bak" is not a valid Stencyl project.
+2019-05-13 08:30:35,540 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Action: Import Game...
+2019-05-13 08:31:09,269 DEBUG [pool-1-thread-3] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913vert_space_shooter_v2.zip
+2019-05-13 08:31:09,269 ERROR [pool-1-thread-3] stencyl.sw.util.FileHelper: Failed to delete file or directory: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913vert_space_shooter_v2.zip
+2019-05-13 08:31:09,311 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.ImportGameTask: Took 2080ms
+2019-05-13 08:31:12,119 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913\sandbox\test\temp
+2019-05-13 08:31:12,121 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+2019-05-13 08:31:12,121 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\game
+2019-05-13 08:31:12,122 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: vert_space_shooter_v2
+2019-05-13 08:31:12,127 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash.png isn't a png image
+2019-05-13 08:31:12,128 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash6p.png isn't a png image
+2019-05-13 08:31:12,128 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splashx.png isn't a png image
+2019-05-13 08:31:12,156 ERROR [AWT-EventQueue-0] root: Unexpected problem on thread AWT-EventQueue-0: java.lang.IllegalArgumentException: input == null!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: input == null!
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:74)
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:54)
+	at stencyl.sw.app.tasks.OpenGameTask.done(OpenGameTask.java:365)
+	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.IllegalArgumentException: input == null!
+	at javax.imageio.ImageIO.read(ImageIO.java:1298)
+	at stencyl.sw.util.gfx.ImageUtil.readRasterImage(ImageUtil.java:180)
+	at stencyl.core.lib.Game.updateSplashScreenToStoryboard(Game.java:1818)
+	at stencyl.core.lib.Game.<init>(Game.java:1716)
+	at stencyl.core.lib.Game.create(Game.java:697)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:335)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:49)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:31:59,121 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913\sandbox\test\temp
+2019-05-13 08:31:59,122 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+2019-05-13 08:31:59,123 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\game
+2019-05-13 08:31:59,123 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: vert_space_shooter_v2
+2019-05-13 08:31:59,131 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash.png isn't a png image
+2019-05-13 08:31:59,131 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash6p.png isn't a png image
+2019-05-13 08:31:59,131 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splashx.png isn't a png image
+2019-05-13 08:31:59,158 ERROR [AWT-EventQueue-0] root: Unexpected problem on thread AWT-EventQueue-0: java.lang.IllegalArgumentException: input == null!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: input == null!
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:74)
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:54)
+	at stencyl.sw.app.tasks.OpenGameTask.done(OpenGameTask.java:365)
+	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.IllegalArgumentException: input == null!
+	at javax.imageio.ImageIO.read(ImageIO.java:1298)
+	at stencyl.sw.util.gfx.ImageUtil.readRasterImage(ImageUtil.java:180)
+	at stencyl.core.lib.Game.updateSplashScreenToStoryboard(Game.java:1818)
+	at stencyl.core.lib.Game.<init>(Game.java:1716)
+	at stencyl.core.lib.Game.create(Game.java:697)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:335)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:49)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:32:02,468 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913\sandbox\test\temp
+2019-05-13 08:32:02,469 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+2019-05-13 08:32:02,470 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\game
+2019-05-13 08:32:02,471 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: vert_space_shooter_v2
+2019-05-13 08:32:02,476 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash.png isn't a png image
+2019-05-13 08:32:02,476 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash6p.png isn't a png image
+2019-05-13 08:32:02,476 ERROR [pool-1-thread-3] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splashx.png isn't a png image
+2019-05-13 08:32:02,505 ERROR [AWT-EventQueue-0] root: Unexpected problem on thread AWT-EventQueue-0: java.lang.IllegalArgumentException: input == null!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: input == null!
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:74)
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:54)
+	at stencyl.sw.app.tasks.OpenGameTask.done(OpenGameTask.java:365)
+	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.IllegalArgumentException: input == null!
+	at javax.imageio.ImageIO.read(ImageIO.java:1298)
+	at stencyl.sw.util.gfx.ImageUtil.readRasterImage(ImageUtil.java:180)
+	at stencyl.core.lib.Game.updateSplashScreenToStoryboard(Game.java:1818)
+	at stencyl.core.lib.Game.<init>(Game.java:1716)
+	at stencyl.core.lib.Game.create(Game.java:697)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:335)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:49)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:33:28,293 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913\sandbox\test\temp
+2019-05-13 08:33:28,295 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\scripts
+2019-05-13 08:33:28,295 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\preview\game
+2019-05-13 08:33:28,296 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: vert_space_shooter_v2
+2019-05-13 08:33:28,301 ERROR [pool-1-thread-4] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash.png isn't a png image
+2019-05-13 08:33:28,301 ERROR [pool-1-thread-4] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splash6p.png isn't a png image
+2019-05-13 08:33:28,302 ERROR [pool-1-thread-4] stencyl.sw.util.gfx.ImageUtil: C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\ios-splashx.png isn't a png image
+2019-05-13 08:33:28,330 ERROR [AWT-EventQueue-0] root: Unexpected problem on thread AWT-EventQueue-0: java.lang.IllegalArgumentException: input == null!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: input == null!
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:74)
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:54)
+	at stencyl.sw.app.tasks.OpenGameTask.done(OpenGameTask.java:365)
+	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.IllegalArgumentException: input == null!
+	at javax.imageio.ImageIO.read(ImageIO.java:1298)
+	at stencyl.sw.util.gfx.ImageUtil.readRasterImage(ImageUtil.java:180)
+	at stencyl.core.lib.Game.updateSplashScreenToStoryboard(Game.java:1818)
+	at stencyl.core.lib.Game.<init>(Game.java:1716)
+	at stencyl.core.lib.Game.create(Game.java:697)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:335)
+	at stencyl.sw.app.tasks.OpenGameTask.doInBackground(OpenGameTask.java:49)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:33:29,934 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Attempting to quit out of Stencyl.
+2019-05-13 08:33:32,196 INFO  [pool-1-thread-4] stencyl.sw.io.write.MasterWriter: Saving game in place.
+2019-05-13 08:33:32,205 DEBUG [pool-1-thread-4] stencyl.sw.util.FileHelper: Saving backup file C:\Users\els\AppData\Roaming\Stencyl\stencylworks\games\vert_space_shooter_v2\game.xml.bak.
+2019-05-13 08:33:32,207 ERROR [pool-1-thread-4] stencyl.sw.io.write.GameImageWriter: Couldn't read master-icon.png
+java.io.IOException: Couldn't read master-icon.png
+	at stencyl.sw.io.write.GameImageWriter.cacheImage(GameImageWriter.java:34)
+	at stencyl.sw.io.write.GameFileWriter.ensureDerivativesCached(GameFileWriter.java:954)
+	at stencyl.sw.io.write.GameFileWriter.write(GameFileWriter.java:100)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:79)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:35)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:15)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:33:32,208 ERROR [pool-1-thread-4] stencyl.sw.io.write.GameImageWriter: Couldn't read iphone-splash-sb.png
+java.io.IOException: Couldn't read iphone-splash-sb.png
+	at stencyl.sw.io.write.GameImageWriter.cacheImage(GameImageWriter.java:34)
+	at stencyl.sw.io.write.GameFileWriter.ensureDerivativesCached(GameFileWriter.java:954)
+	at stencyl.sw.io.write.GameFileWriter.write(GameFileWriter.java:118)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:79)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:35)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:15)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:33:32,208 ERROR [pool-1-thread-4] stencyl.sw.io.write.GameImageWriter: Couldn't read ipad-splash-sb.png
+java.io.IOException: Couldn't read ipad-splash-sb.png
+	at stencyl.sw.io.write.GameImageWriter.cacheImage(GameImageWriter.java:34)
+	at stencyl.sw.io.write.GameFileWriter.ensureDerivativesCached(GameFileWriter.java:954)
+	at stencyl.sw.io.write.GameFileWriter.write(GameFileWriter.java:124)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:79)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:35)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:15)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:33:32,229 ERROR [AWT-EventQueue-0] root: Unexpected problem on thread AWT-EventQueue-0: java.lang.NullPointerException
+java.lang.RuntimeException: java.lang.NullPointerException
+	at stencyl.sw.app.tasks.StencylWorker.done(StencylWorker.java:74)
+	at stencyl.sw.app.tasks.SaveGameTask.done(SaveGameTask.java:58)
+	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
+	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
+	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
+	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.NullPointerException
+	at stencyl.sw.io.write.GameFileWriter.writeExtension(GameFileWriter.java:878)
+	at stencyl.sw.io.write.GameFileWriter.writeExtensions(GameFileWriter.java:864)
+	at stencyl.sw.io.write.GameFileWriter.write(GameFileWriter.java:360)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:79)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:35)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:15)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javax.swing.SwingWorker.run(SwingWorker.java:334)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-05-13 08:33:38,080 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Attempting to quit out of Stencyl.
+2019-05-13 08:33:42,177 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, neko.exe, /f]
+2019-05-13 08:33:42,270 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2019-05-13 08:33:42,270 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, adb.exe, /f]
+2019-05-13 08:33:42,333 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2019-05-13 08:33:42,333 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, arm-linux-androideabi-g++.exe, /f]
+2019-05-13 08:33:42,395 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2019-05-13 08:33:42,395 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, cc1plus.exe, /f]
+2019-05-13 08:33:42,458 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2019-05-13 08:33:42,458 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, tail.exe, /f]
+2019-05-13 08:33:42,523 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2019-05-13 08:33:42,523 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, ios-sim.exe, /f]
+2019-05-13 08:33:42,585 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2019-05-13 08:33:42,585 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying extensions.
+2019-05-13 08:33:42,591 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Performing final close.
+2019-05-13 08:33:42,600 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Exiting...
+2019-05-13 08:33:42,600 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying Temporary Sandbox.
+2019-05-13 08:33:42,601 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\els\AppData\Local\Temp\stencyl7511625295214196913

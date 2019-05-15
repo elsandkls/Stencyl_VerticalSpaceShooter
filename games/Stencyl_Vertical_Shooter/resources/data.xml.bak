@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="30" fixedrot="false" fric="0.2" gid="3" id="39" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="alien_icon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="40" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="40" name="alien_icon" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="16" id="0" loop="false" name="Animation 0" numframes="1" originx="22" originy="8" sync="false" version="2" width="45">
+            <poly data="4,0,0,45,0,45,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="3.0" height="960" id="45" name="BackgroundGreenNebula" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="320" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="3.0" height="960" id="0" name="BackgroundNebula" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="320" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="3.0" height="960" id="47" name="BackgroundRedNebula" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="320" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="28" loop="true" name="bumpedIt" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.75" gid="3" id="7" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Comet" oid="-1" pausable="true" physicsMode="0" rest="0.05" shared="false" sprite="8" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="8" name="Comet" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="31" id="0" loop="false" name="Animation CometSmall" numframes="1" originx="16" originy="15" sync="false" version="2" width="32">
+            <circle data="16,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="4" fixedrot="false" fric="0.75" gid="3" id="9" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CometLarge" oid="-1" pausable="true" physicsMode="0" rest="0.05" shared="false" sprite="10" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="10" name="CometLarge" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="63" id="0" loop="false" name="Animation Comet Large" numframes="1" originx="32" originy="31" sync="false" version="2" width="64">
+            <circle data="31,1,1" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="27" loop="true" name="explode_sound" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="20" name="Explosion" readable="false" shared="false">
+        <anim across="3" down="2" durations="100,100,100,100,100,100" height="100" id="0" loop="false" name="ani_Explosion_orange" numframes="6" originx="31" originy="25" sync="false" version="2" width="189"/>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="22" name="Explosion Green" readable="false" shared="false">
+        <anim across="3" down="2" durations="100,100,100,100,100,100" height="100" id="0" loop="false" name="Animation Explosion Green" numframes="6" originx="31" originy="25" sync="false" version="2" width="189"/>
+    </sprite>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="10" fixedrot="false" fric="0.38" gid="3" id="21" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Explosion_Green" oid="-1" pausable="true" physicsMode="0" rest="0.09" shared="false" sprite="22" static="true">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="9" fixedrot="false" fric="0.38" gid="3" id="19" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Explosion_Orange" oid="-1" pausable="true" physicsMode="0" rest="0.09" shared="false" sprite="20" static="true">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.13" gid="3" id="11" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="FlyingSaucer" oid="-1" pausable="true" physicsMode="0" rest="0.17" shared="false" sprite="12" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="12" name="FlyingSaucer" readable="false" shared="false">
+        <anim across="2" down="2" durations="100,100,100,100" height="98" id="0" loop="true" name="Animation Flying Saucer" numframes="4" originx="69" originy="24" sync="false" version="2" width="278">
+            <poly data="8,3,41,70,49,138,42,138,30,107,15,65,1,32,13,1,27" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="6.0" height="960" id="2" name="Foreground Stars" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="320" xpf="1.0" ypf="1.0"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="16" name="Green Ray" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="false" name="ani_Green_Ray" numframes="1" originx="4" originy="12" sync="false" version="2" width="9">
+            <poly data="4,1,1,8,1,8,25,1,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation Green Ray" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="true" fric="0.38" gid="3" id="15" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Green_Ray" oid="-1" pausable="true" physicsMode="0" rest="0.09" shared="false" sprite="16" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="32" fixedrot="true" fric="0.2" gid="3" id="43" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="HUDGreenRay_icon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="44" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="44" name="HUDGreenRay_icon" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="9" id="0" loop="false" name="Animation 0" numframes="1" originx="12" originy="4" sync="false" version="2" width="25">
+            <poly data="4,0,0,25,0,25,9,0,9" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="31" fixedrot="true" fric="0.2" gid="3" id="41" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="HUDRedRay_icon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="42" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="42" name="HUDRedRay_icon" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="9" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="4" sync="false" version="2" width="25">
+            <poly data="4,0,0,25,0,25,9,0,9" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="29" loop="true" name="Laser" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="3" id="37" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="lrgcomet_icon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="38" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="38" name="lrgcomet_icon" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="16" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="16">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="4.0" height="960" id="46" name="MidGroundGreenStars" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="320" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="4.0" height="960" id="48" name="MidGroundRedStars" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="320" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="4.0" height="960" id="1" name="MidGroundStars" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="320" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="26" fixedrot="true" fric="0.2" gid="3" id="31" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="pcship_icon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="32" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="32" name="pcship_icon" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="16" id="0" loop="false" name="Animation 0" numframes="1" originx="19" originy="8" sync="false" version="2" width="39">
+            <poly data="4,0,0,39,0,39,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="6" name="Power up" readable="false" shared="false">
+        <anim across="2" down="1" durations="800,500" height="33" id="0" loop="true" name="Animation PowerUp" numframes="2" originx="19" originy="16" sync="false" version="2" width="76">
+            <poly data="4,1,1,37,1,37,32,1,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation PowerUp" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="false" fric="0.2" gid="3" id="5" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Power_Up" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="27" fixedrot="true" fric="0.2" gid="3" id="33" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Powerup_Icon" oid="-1" pausable="false" physicsMode="0" rest="0.0" shared="false" sprite="34" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="34" name="Powerup_Icon" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="16" id="0" loop="false" name="Animation 0" numframes="1" originx="9" originy="8" sync="false" version="2" width="18">
+            <poly data="4,0,0,18,0,18,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="18" name="Red Ray" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="false" name="ani_Red_Ray" numframes="1" originx="4" originy="12" sync="false" version="2" width="9">
+            <poly data="4,1,1,8,1,8,25,1,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="true" fric="0.38" gid="3" id="17" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Red_Ray" oid="-1" pausable="true" physicsMode="0" rest="0.09" shared="false" sprite="18" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="3" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="smcomet_icon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="36" name="smcomet_icon" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="16" id="0" loop="false" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="16">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.13" gid="3" id="3" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="SpaceShip" oid="-1" pausable="true" physicsMode="0" rest="0.17" shared="false" sprite="4" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="4" name="SpaceShip" readable="false" shared="false">
+        <anim across="2" down="2" durations="100,100,100,100" height="236" id="0" loop="true" name="Animation SpaceShip" numframes="4" originx="25" originy="59" sync="false" version="2" width="102">
+            <poly data="8,25,0,5,40,0,70,0,90,25,110,50,90,50,70,45,40" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="14" name="UFO Gun" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="18" id="0" loop="false" name="ani_UFO_Gun" numframes="1" originx="0" originy="0" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,18,0,18" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.13" gid="3" id="13" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="UFO_Gun" oid="-1" pausable="true" physicsMode="0" rest="0.17" shared="false" sprite="14" static="false">
+        <snippets/>
+    </actor>
+</pack>

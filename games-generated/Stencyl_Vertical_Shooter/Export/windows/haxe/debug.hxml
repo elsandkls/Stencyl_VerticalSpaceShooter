@@ -1,0 +1,53 @@
+-main ApplicationMain 
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/stencyl/1,00
+-D stencyl=4.0.1
+--macro openfl._internal.macros.ExtraParams.include()
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/openfl/openfl/src
+-D openfl=8.7.0
+--macro lime._internal.macros.DefineMacro.run()
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/lime/lime/src
+-D lime=7.2.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/tweenxcore/1,0,4
+-D tweenxcore=1.0.4
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/debug-console/1,00
+-D debug-console=0.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/polygonal-ds/2,0,0/src
+-D polygonal-ds=2.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/polygonal-printf/1,0,0-beta
+-D polygonal-printf=1.0.0-beta
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/box2d/1,11
+-D box2d=0.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/cloner/git
+-D cloner=1.0.0
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/mbs/1,0,0
+-D mbs=1.0.0
+--macro keep('IntIterator')
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/lib/hscript/2,1,1
+-D hscript=2.1.1
+-cp Source
+-cp Z:/Program Files (x86)/Stencyl/plaf/haxe/extensions/gestures
+-D lime-openal
+-D actuate_manual_time
+-D use_tilemap
+-D native
+-D lime-curl
+-D openfl-native
+-D testing
+-D lime-harfbuzz
+-D stencyltools
+-D tools=7.2.0
+-D lime-cairo
+-D lime-opengl
+-D no-compilation
+-D actuate_manual_update
+-D lime-native
+-D lime-vorbis
+-D lime-cffi
+-D windows
+-D desktop
+--remap nme:openfl
+--remap flash:openfl
+-cpp Export/windows/obj
+-cp Export/windows/haxe
+--macro keep("Universal")
+-debug

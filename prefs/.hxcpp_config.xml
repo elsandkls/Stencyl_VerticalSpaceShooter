@@ -1,0 +1,54 @@
+<!--
+
+	This file will get included twice - once at the beginning - once at the end.
+
+	The first time though, the "vars" section is parsed, and this is where you can
+	 set variables to control the setup of the standard compilers and install paths etc.
+
+	The second time, the "exes" section is parsed, and you can modify the linkers/compilers
+	 by adding flags to these executables.
+	
+-->
+
+<xml>
+
+	<!-- This section is parsed at the beginning of the build .... -->
+	<section id="vars">
+
+		<section if="android">
+			<setenv name="JAVA_HOME" value="" />
+			<set name="ANDROID_HOST" value="windows" />
+			<set name="ANDROID_SETUP" value="true" />
+			<set name="ANDROID_SDK" value="" />
+			<set name="ANDROID_NDK_ROOT" value="" />
+			<set name="ANT_HOME" value="C:/Users/els/AppData/Roaming/Stencyl/stencylworks/android-sdk/apache-ant/" />
+		</section>
+		
+		<section if="disabledfeature">
+			<set name="HXCPP_COMPILE_CACHE" value="C:/Users/els/AppData/Roaming/Stencyl/stencylworks/.hxcpp_cache"/>
+			<set name="HXCPP_CACHE_MB" value="1024" />
+		</section>
+	</section>
+
+
+	<!-- Use this section to add flags to the compilers and linkers -->
+	<section id="exes">
+
+		 <!-- Compiling on windows ... -->
+		 <compiler id="MSVC" if="windows">
+				<!-- This flag disables some compiler optimization, and can be useful for debugging of generated C++ code -->
+				<!-- <flag value="-Od" /> -->
+		 </compiler>
+
+		 <!-- Linking on windows ... -->
+		 <linker id="dll" if="windows">
+		 </linker>
+
+		 <!-- And for linking executables -->
+		 <linker id="exe" if="windows">
+		 </linker>
+
+	</section>
+
+</xml>
+

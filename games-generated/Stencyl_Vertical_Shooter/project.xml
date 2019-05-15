@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<!-- paths -->
+
+	<set name="stencylInstall" value="Z:/Program Files (x86)/Stencyl" />
+	<set name="stencylWorkspace" value="C:/Users/els/AppData/Roaming/Stencyl/stencylworks" />
+	<set name="androidBuildsPath" value="C:/Users/els/AppData/Roaming/Stencyl/stencylworks/android-builds" />
+
+	<!-- variables -->
+	
+	<set name="telemetry" if="false" unless="mobile || cppia" />
+	<set name="publishing" if="false" />
+	<set name="iosDevice" value="universal" if="ios" /> <!-- iphone, ipad, or universal -->
+	<set name="showAds" value="false" />
+	<set name="androidPurchases" value="false" />
+
+	<!-- hack -->
+	<set name="desktop" value="true" if="cppia" />
+	<set name="disable-version-check" /> <!-- To allow us to bundle any openfl/lime -->
+	
+	<!-- basic info -->
+
+	<meta title="Stencyl_Vertical_Shooter" company="Stencyl" />
+	<meta title="My Game" package="com.yourcompany.gamename" version="1.0.0" if="mac" />
+	<meta title="Dragon Flight" package="net.kidshideaway.dragonflight" version="1.0.0" if="ios" />
+	<meta title="Dragon Flight" package="net.kidshideaway.dragonflight" version="1.0.0" if="android" />
+
+	<app main="Universal" file="Stencyl_Vertical_Shooter" path="Export" preloader="scripts.StencylPreloader" />
+	<app file="My Game" if="mac" />
+	<config:html5 output-directory="html5" />
+	
+	<set name="SWF_VERSION" value="11.3" />
+	
+	<window resizable="false" fps="65" vsync="true" background="0x000000"/>
+	<window width="0" height="0" orientation="portrait" if="mobile" />
+	<window width="640" height="480" fullscreen="false" allowHighDPI="false" if="desktop" />
+	<window width="640" height="480" if="flash || html5" />
+	
+	<source path="Source" />
+	
+	<haxelib name="stencyl" />
+	<template path="${stencylInstall}/plaf/lime-templates" rename="templates" />
+
+	<haxeflag name="--no-traces" if="publishing flash || publishing html5" />
+	<haxedef name="stencyltools" unless="publishing" />
+	<section unless="publishing" >
+		<haxedef name="testing" />
+		<set name="testing" value="true" />
+	</section>
+
+	<haxedef name="use_tilemap" unless="flash" />
+
+	<!--========================
+	-   assets and config files
+	==========================-->
+
+	<!-- project scales: ["1x","1.5x","2x","3x","4x"] -->
+	
+	<set name="excludeScales" value="" if="web" />
+	<set name="excludeScales" value="" if="desktop" />
+	<set name="excludeScales" value="" if="android" />
+	<set name="excludeScales" value="" if="ios" />
+	<set name="excludeScales" value="${excludeScales}|4x" if="ios ${iosDevice == iphone}" />
+	
+	<!-- game assets --> 
+	
+	<assets path="Assets/graphics" rename="assets/graphics" include="*" exclude="${excludeScales}" /> 
+	
+	<assets path="Assets/music" rename="assets/music" type="music" include="*.mp3" if="flash || html5" />
+	<assets path="Assets/music" rename="assets/music" type="music" include="*.ogg" unless="flash" />
+	
+	<assets path="Assets/sfx" rename="assets/sfx" type="sound" include="*.mp3" if="flash || html5" />
+	<assets path="Assets/sfx" rename="assets/sfx" type="sound" include="*.ogg" unless="flash" />
+	
+	<assets path="Assets/data" rename="assets/data" include="*" />
+	
+	<!-- game configuration files, preloaded/embedded -->
+
+	<assets path="Config" rename="config" if="testing" />
+	<section if="flash || html5 || publishing">
+		<haxeflag name="-resource" value="Config/game-config.json@config_game_config_json" />
+		<haxeflag name="-resource" value="Config/preloadPaths.txt@config_preloadpaths_txt" />
+		<haxeflag name="-resource" value="Config/preloader-badge.png@config_preloader_badge_png" unless="html5" />
+		<haxeflag name="-resource" value="Config/preloader-badge.txt@config_preloader_badge_txt" if="html5" />
+	</section>
+
+
+	<!--========================
+	-   icons
+	==========================-->
+	
+	<set name="icons" value="Images/icon" />
+
+	<icon path="${icons}/Icon.png" size="57" />
+	<icon path="${icons}/Icon@2x.png" size="114" />
+	<icon path="${icons}/Icon-72.png" size="72" />
+	<icon path="${icons}/Icon-72@2x.png" size="144" />
+
+	<icon path="${icons}/Icon-48.png" size="48" />
+	<icon path="${icons}/Icon-76.png" size="76" />
+	<icon path="${icons}/Icon-96.png" size="96" />
+	<icon path="${icons}/Icon-120.png" size="120" />
+	<icon path="${icons}/Icon-128.png" size="128" />
+	<icon path="${icons}/Icon-152.png" size="152" />
+	<icon path="${icons}/Icon-256.png" size="256" />
+	<icon path="${icons}/Icon-512.png" size="512" />
+	<icon path="${icons}/Icon-1024.png" size="1024" />
+
+	<section if="desktop">
+		
+		<icon path="${icons}/Icon-16.png" size="16" />
+		<icon path="${icons}/Icon-24.png" size="24" />
+		<icon path="${icons}/Icon-32.png" size="32" />
+		
+	</section>
+	
+	<!--========================
+	-   extensions
+	==========================-->
+
+	<set name="extensionsBase" value="${stencylInstall}/plaf/haxe/extensions" />
+
+	<section if="mobile">
+	
+		<include path="${extensionsBase}/ads" if="${showAds}" />
+		<include path="${extensionsBase}/gamecenter" />
+		<include path="${extensionsBase}/google" if="android" />
+		<include path="${extensionsBase}/joystick" />
+		<include path="${extensionsBase}/native" />
+		<include path="${extensionsBase}/purchases" />
+		
+	</section>
+	
+	<include path="${extensionsBase}/gestures"/>
+	
+	<!-- user extensions -->
+
+	
+	
+	<setenv name="GOOGLE_APP_ID" value="0" if="mobile"/>
+	
+	<!--========================
+	-   platform sections
+	==========================-->
+
+	<section if="android">
+
+		<android permission="android.permission.WAKE_LOCK" />
+		<android permission="android.permission.INTERNET" />
+		<android permission="android.permission.VIBRATE" />
+		<android permission="android.permission.ACCESS_NETWORK_STATE" />
+		<android permission="com.android.vending.BILLING" if="${androidPurchases}"/>
+		
+		
+		
+		<android minimum-sdk-version="18" />
+		<android target-sdk-version="9" />
+		
+		<config:android gradle-version="4.7" />
+		<config:android gradle-plugin="2.3.0" />
+		
+		<config:android gradle-build-directory="${androidBuildsPath}" />
+		
+		<meta build-number="1" />
+		
+		<architecture name="arm64" if="publishing" />
+		 
+	</section>
+	
+	<section if="ios">
+
+		<set name="iosSdk" value="0.0" />
+		<set name="iosBinaries" value="arm64" if="${iosSdk > 10}" />
+		<set name="iosBinaries" value="armv7" unless="${iosSdk > 10}" />
+
+		<architecture name="arm64" if="${iosSdk > 10}" />
+		<architecture exclude="armv7" if="${iosSdk > 10} debug" />		
+
+		<launchStoryboard template="splash.storyboard" assetsPath="Images/splash" bg="0x99ccff" contentMode="center"
+			ipad="ipad-splash-sb.png"
+			portrait="iphone-splash-sb.png">
+
+			<imageset name="ipad-splash-sb.png" unless="${iosDevice == iphone}" />
+			<imageset name="iphone-splash-sb.png" unless="${iosDevice == ipad}" />
+		
+		</launchStoryboard>
+		
+		<ios deployment="${iosSdk}" binaries="${iosBinaries}" devices="${iosDevice}" />
+		
+		<setenv name="IPHONE_VER" value="0.0" />
+		<setenv name="APP_BUILD_NUMBER" value="[VERSION]" />
+		<setenv name="APP_TITLE" value="Dragon Flight" />
+		<setenv name="HXCPP_CLANG" value="true" />
+		<setenv name="PRERENDERED_ICON" value="true" />
+		
+		<config:ios non-exempt-encryption="false" />
+
+		<meta build-number="1" />
+		
+		
+	</section>
+	
+	<section if="mac">
+	
+		<setenv name="APP_TITLE" value="My Game" />
+		<meta build-number="1" />
+
+		<define name="MACOSX_DEPLOYMENT_TARGET" value="10.9" />
+		<setenv name="MACOSX_DEPLOYMENT_TARGET" value="10.9" />
+	
+	</section>
+	
+	<section if="telemetry">
+		
+		<config:hxtelemetry allocations="true" />
+		<config:hxtelemetry host="192.168.21.107" if="mobile" />
+		<config:hxtelemetry host="localhost" unless="mobile" />
+		
+	</section>
+	
+	
+
+</project>

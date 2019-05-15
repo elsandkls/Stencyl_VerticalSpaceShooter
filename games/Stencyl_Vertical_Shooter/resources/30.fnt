@@ -1,0 +1,17 @@
+#
+#Sun Aug 19 17:40:57 EDT 2018
+style=bold italic
+alphabet=
+stroke.color=\#993366
+color=\#ff00ff
+shadow.y=1
+family=SansSerif
+shadow.x=4
+shadow.color=\#000000
+gradient.offset=3
+shadow.blur=1
+chars=0-9
+gradient.color=\#ffcc99
+stroke.size=1
+antialias=true
+size=20
